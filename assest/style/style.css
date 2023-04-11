@@ -83,7 +83,7 @@
     word-break: break-all;
 }
 
-  .containerSub-sub {
+  .containersub-sub {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -95,7 +95,7 @@
     text-align: center;
     }
 
-  .container .containerSub-sub .status {
+  .container .containersub-sub .status {
     border: 1px solid #000;
     background-color: #f8f5f5;
     border-top: none;
@@ -106,7 +106,7 @@
     padding: 10px;
   }
 
-  .container .containerSub-sub .max-weight {
+  .container .containersub-sub .max-weight {
     border: 1px solid #000;
     background-color: #f8f5f5;
     border-top: none;
