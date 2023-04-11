@@ -1,0 +1,151 @@
+* {
+    font-size: 20px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: #ffffff;
+  }
+
+  header {
+    font-size: 2.3rem;
+    letter-spacing: 2px;
+    text-align: center;
+    opacity: 0.6;
+  
+  }
+  
+  .whole {
+    background-color: #9eceb8;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    width: 600px;
+    height: fit-content;
+    margin: 2.1rem auto;
+    border: 1px solid #040404;
+    
+  }
+  
+  .list{
+    display: flex;
+    gap: 3%;
+    padding: 3%;
+  }
+  
+ .weight-input {
+    background-color: #fff7f7;
+    color: #000;
+    border: none;
+    width: 13vw;
+    padding: 7%;
+    font-size: medium;
+  }
+  
+  .input-list {
+    background-color: #f8f1f1;
+    width: 96%;
+  }
+
+  .input-item
+  
+  .whole .container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    padding: 10px;
+    width: 100%;
+    height: fit-content;
+  }
+  
+  .container .container-sub {
+    width: 100%;
+  }
+
+  .container .container-sub p {
+    font-size: 24px;
+    margin: 0;
+    border: 1px solid #000;
+  }
+  
+  .container .container-sub .selected-display {
+    border: 1px solid #000;
+    background-color: #ede4e4;
+    border-top: none;
+    width: 100%;
+    height: 190px;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    word-break: break-all;
+}
+
+  .containerSub-sub {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    padding: 2%;
+  }
+  
+  p{
+    text-align: center;
+    }
+
+  .container .containerSub-sub .status {
+    border: 1px solid #000;
+    background-color: #f8f5f5;
+    border-top: none;
+    width: 50%;
+    min-height: 70px;
+    height: fit-content;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  .container .containerSub-sub .max-weight {
+    border: 1px solid #000;
+    background-color: #f8f5f5;
+    border-top: none;
+    width: 50%;
+    min-height: 70px;
+    height: fit-content;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+
+  button {
+    background-color: #a52a2a;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 1rem;
+
+  }
+  
+  .last-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    margin-bottom: 1rem;
+  }
+  
+  .submit {
+    background-color: #080;
+  }
+  
+  .clear-all {
+    background-color: #a52a2a;
+    align-self: center;
+  }
+  
+  @media only screen and (max-width: 500px){
+    .whole {
+      width: 95vw;
+    }
+  }
+  
