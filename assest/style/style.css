@@ -33,7 +33,7 @@ header {
 }
 
 .weight-input {
-  background-color: #fff7f7;
+  background-color: #ccc1c1;
   color: #000;
   border: none;
   width: 13vw;
@@ -76,7 +76,10 @@ header {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  word-break: break-all;
+}
+
+p {
+  text-align: center;
 }
 
 .containersub-sub {
@@ -85,10 +88,6 @@ header {
   flex-direction: row;
   gap: 2%;
   padding: 2%;
-}
-
-p {
-  text-align: center;
 }
 
 .container .containersub-sub .status {
