@@ -4,7 +4,7 @@ This project is named knapsack.
 
 ## APP
 
-![knapsack](asserts/styles/images/knap.png)
+![knapsack](assest/images/knapsack.png)
 
 ## ABOUT
 
@@ -16,18 +16,19 @@ are automatically sum inorder not to exceed the maximum weight of the bag
 
 - HTML
 - CSS
+- JavaScript
 - Google Chrome
 
 ## Clone project
 
 - To get a local copy up and running follow these simple example steps.
 - Clone this repository with
-`https://github.com/kadjialan/knapsack-page-js` using your terminal.
+`https://github.com/MALWICK/knapsack/pulls` using your terminal.
 - Change to the project directory by entering: cd wedding in the terminal.
 
 ## Command-line steps
 
-- $ git clone `$ https://github.com/kadjialan/knapsack-page-js`
+- $ git clone `$ https://github.com/MALWICK/knapsack/pulls`
 - $ `cd knapsack`
 - $ `git checkout feature/design`
 
@@ -46,19 +47,19 @@ Knowledge about:
 
 ## Live Site
 
-[Link]( https://kadjialan.github.io/knapsack-page-js/)
+[Link]( https://malwick.github.io/knapsack/)
 
 ## Author
 
-👤 **Kadji Alan**
+👤 **MALWICK**
 
-- GitHub: [@kadji alan](https://github.com/kadjialan/)
+- GitHub: [@MALWICK](https://github.com/MALWICK)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/kadjialan/knapsack-page-js/issues).
+Feel free to check the [issues page](https://github.com/MALWICK/knapsack/issues).
 
 ## Show your support
 
