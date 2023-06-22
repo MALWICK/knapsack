@@ -44,9 +44,7 @@ function addItem (e) {
 }
 
 function displayItems () {
-  removeItem()
   itemList.innerHTML = ''
-
   items.forEach((item, index) => {
     if (item.weight < item.maxw) {
       const li = document.createElement('li')
@@ -67,7 +65,8 @@ function displayItems () {
 }
 
 function removeItem (index) {
-  items.splice(index, 1)
+  items.splice(index, 1) 
+  console.log(index)
   displayItems()
 }
 
