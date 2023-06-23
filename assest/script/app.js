@@ -65,10 +65,12 @@ function displayItems () {
 }
 
 function removeItem (index) {
-  items.splice(index, 1) 
+  items.splice(index, 1)
   console.log(index)
   displayItems()
 }
+
+removeItem()
 
 function calculateResult () {
   let totalWeightValue = 0
