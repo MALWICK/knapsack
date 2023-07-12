@@ -8,37 +8,69 @@
   </head>
   <body>
     <div class="knapsack">
-      <h2>Knapsack</h2>
-      <form>
-        <label for="item">set max-weight:</label>
-        <input
-          type="number"
-          id="maxi-weight"
-          name="item"
-          placeholder="enter the max-weight"
-        />
-
-        <label for="item">Item:</label>
-        <input type="text" id="item" name="item"  placeholder="enter the item" required />
-        <label for="weight">Weight:</label>
-        <input type="number" id="weight" name="weight" required  placeholder="enter the wait of item" />
-        <label for="value">Price XFA:</label>
-        <input type="number" id="value" name="value" required   placeholder="enter the price of the item"/>
-        <button id="add" type="submit">Add Item</button>
-      </form>
-      <div class="items">
-        <h3>Items:</h3>
-        <ul id="item-list"></ul>
-        <p id="full"></p>
+      <div class="pagecontent">
+        <h1>Knapsack</h1>
+        <div class="input-field">
+          <div class="mas">
+            <div class="iput">
+              <label for="" class="label">Set max-weight</label>
+            <input
+              type="number"
+              placeholder="Enter the max-weight"
+              class="capacity"
+            />
+            </div>
+            <div class="done">
+              <button class="btn1">Done</button>
+            </div>
+          </div>
+         <div class="selectdiv">
+          <div class="sele">
+            <label for="" class="label">Item</label>
+            <select id="select">
+              <option value="book">book</option>
+              <option value="pen">pen</option>
+              <option value="ruler">ruler</option>
+              <option value="pencil">pencil</option>
+              <option value="calculator">calculator</option>
+              <option value="sweet">sweet</option>
+              <option value="biscuit">biscuit</option>
+              <option value="bread">bread</option>
+              <option value="doughnut">doughnut</option>
+              <option value="cake">cake</option>
+              <option value="shoe">shoe</option>
+              <option value="balloon">balloon</option>
+              <option value="computer">computer</option>
+              <option value="iPhone">iPhone</option>
+              <option value="stopwatch">stopwatch</option>
+              <option value="t-shirt">t-shirt</option>
+              <option value="coat">coat</option>
+              <option value="handkerchief">handkerchief</option>
+              <option value="USB-key">USB-key</option>
+              <option value="smartphone">smartphone</option>
+            </select>
+          </div>
+          <div class="input-button">
+            <button class="btn2">Add items</button>
+          </div>
+         </div>
+        </div>
+        <div class="output-field">
+          <div class="knapsack-status">
+            <h2>Items</h2>
+            <div id="item-list"></div>
+          </div>
+          <div>
+            <h2>Result</h2>
+            <div class="final-state">
+              <p>Total weight:</p>
+              <p>Total value(XAF):</p>
+              <p>Max weight:</p>
+            </div>
+          </div>
+        </div>
+        <button class="btn3">Reset</button>
       </div>
-      <div class="result">
-        <h3>Result:</h3>
-        <p>Total Weight: <span id="total-weight"></span></p>
-        <p>Total price(XFA): <span id="total-value"></span></p>
-        <p>Max weight: <span id="max-weight"></span></p>
-        <p id="error"></p>
-      </div>
-      <button class="clear-all">Clear</button>
     </div>
 
     <script src="./assest/script/app.js"></script>

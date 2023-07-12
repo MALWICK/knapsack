@@ -1,15 +1,97 @@
-.knapsack {
-  max-width: 500px;
-  margin: auto;
-  padding: 15px;
-  border: 1px solid #ccc;
+body {
+  padding: 0;
+  margin: 0;
 }
 
-form {
+.knapsack {
   width: 100%;
-  border: 2px solid #c4dde6;
+  height: 80vh;
+  min-height: 110vh;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.pagecontent {
+  width: 500px;
+  padding: 1.5%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.iput {
+  width: 50%;
+  display: block;
+}
+
+.selectdiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /*  background-color: orange; */
+  justify-content: center;
+  gap: 5%;
+}
+
+.selectdiv select {
+  width: 100%;
+}
+
+.input-field {
+  width: 100%;
+  /* background-color: red; */
+}
+
+.selectdiv {
+  width: 100%;
+}
+
+.input-field input {
+  width: 250px;
+}
+
+.mas {
+  /*  background-color: greenyellow; */
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 7%;
+}
+
+.sele {
+  width: 53%;
+  /*   background-color: rgb(128, 8, 112); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7%;
   flex-direction: column;
+}
+
+.sele label {
+  width: 95%;
+  text-align: left;
+  font-size: large;
+}
+
+.done {
+  width: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: blue; */
+}
+
+.input-button {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: blue; */
+}
+
+.done button {
+  width: 109px;
 }
 
 label,
@@ -77,4 +159,14 @@ li span {
   color: white;
   cursor: pointer;
   transition: 0.2s ease-in-out;
+}
+
+label {
+  text-align: left;
+}
+
+@media(max-width: 768px) {
+  .input-field input {
+    width: 226px;
+}
 }
