@@ -16,7 +16,7 @@ body {
 .pagecontent {
   width: 500px;
   padding: 1.5%;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: #00000059 0px 5px 15px;
 }
 
 .iput {
@@ -36,11 +36,14 @@ body {
   width: 100%;
 }
 
-.input-field {
-  width: 100%;
+label,
+input,
+button {
+  margin: 2px;
+  padding: 4px;
 }
 
-.selectdiv {
+.input-field {
   width: 100%;
 }
 
@@ -75,7 +78,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background: blue; */
 }
 
 .input-button {
@@ -87,13 +89,6 @@ body {
 
 .done button {
   width: 109px;
-}
-
-label,
-input,
-button {
-  margin: 2px;
-  padding: 4px;
 }
 
 button {
