@@ -71,6 +71,20 @@ body {
   font-size: large;
 }
 
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
 .done {
   width: 190px;
   display: flex;
@@ -87,18 +101,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-button {
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
 }
 
 .delete {
