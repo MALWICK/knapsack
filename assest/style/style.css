@@ -16,7 +16,7 @@ body {
 .pagecontent {
   width: 500px;
   padding: 1.5%;
-  box-shadow: #00000059 0px 5px 15px;
+  border: 2px solid grey;
 }
 
 .iput {
@@ -36,9 +36,7 @@ body {
   width: 100%;
 }
 
-label,
-input,
-button {
+.capacity {
   margin: 2px;
   padding: 4px;
 }
@@ -80,15 +78,15 @@ button {
   justify-content: center;
 }
 
+.done button {
+  width: 109px;
+}
+
 .input-button {
   width: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.done button {
-  width: 109px;
 }
 
 button {
