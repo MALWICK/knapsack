@@ -111,6 +111,7 @@ button {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
+  margin-left: 6px;
 }
 
 .items {
@@ -122,8 +123,12 @@ button {
 }
 
 ul {
+  width: 95%;
   list-style: none;
   padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 li {
