@@ -11,17 +11,30 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  background-color: black;
 }
 
 .pagecontent {
-  width: 500px;
+  width: 447px;
   padding: 1.5%;
   border: 2px solid grey;
+  border-radius: 0.8rem;
+  background-color: white;
 }
 
 .iput {
-  width: 50%;
+  width: 100%;
   display: block;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.iput label {
+  text-align: left;
+  width: 100%;
 }
 
 .selectdiv {
@@ -30,34 +43,48 @@ body {
   align-items: center;
   justify-content: center;
   gap: 5%;
+  flex-direction: column;
 }
 
 .selectdiv select {
   width: 100%;
+  padding: 2%;
+  margin-bottom: 2%;
+  border-radius: 0.3rem;
 }
 
 .capacity {
   margin: 2px;
-  padding: 4px;
+  padding: 7px;
+  width: 100%;
+  border-radius: 0.3rem;
 }
 
 .input-field {
   width: 100%;
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: left;
+  flex-direction: column;
 }
 
 .input-field input {
-  width: 250px;
+  width: 97%;
 }
 
 .mas {
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   gap: 7%;
+  flex-direction: column;
+  margin-bottom: 10px;
 }
 
 .sele {
-  width: 53%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -71,6 +98,10 @@ body {
   font-size: large;
 }
 
+.sele option {
+  width: 50%;
+}
+
 button {
   background-color: #4caf50;
   color: white;
@@ -81,28 +112,35 @@ button {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
+  width: 100%;
+  border-radius: 0.3rem;
 }
 
 .done {
-  width: 190px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 1.2%;
 }
 
 .done button {
-  width: 109px;
+  width: 100%;
+  border-radius: 0.3rem;
+  background-color: #2854b4;
 }
 
 .input-button {
-  width: 250px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .delete {
+  width: 100px;
   background-color: red;
+  border-radius: 0.3rem;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -152,6 +190,13 @@ li span {
   color: white;
   cursor: pointer;
   transition: 0.2s ease-in-out;
+}
+
+.warning {
+  color: black;
+  margin-top: -10px;
+  height: 12px;
+  visibility: hidden;
 }
 
 @media (max-width: 768px) {
