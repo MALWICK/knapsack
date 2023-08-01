@@ -199,6 +199,23 @@ li span {
   visibility: hidden;
 }
 
+.res {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ /*  background-color: red; */
+}
+
+.max-res {
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4caf50;
+  border-radius: 0.2rem;
+}
+
 @media (max-width: 768px) {
   .input-field input {
     width: 226px;

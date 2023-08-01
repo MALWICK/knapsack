@@ -28,7 +28,7 @@ const done = document.querySelector(".btn1");
 const add = document.querySelector(".btn2");
 const restart = document.querySelector(".btn3");
 const itemList = document.querySelector("#item-list");
-const warning = document.querySelector(".warning");
+const maxi = document.querySelector(".max-res");
 let sumWeight = 0;
 let sumValue = 0;
 
@@ -71,14 +71,15 @@ done.onclick = function () {
             <div>
               <p>Total weight: ${sumWeight}</p>
               <p>Total value(XAF): ${sumValue}</p>
-              <p>Max weight: ${inputVal}</p>
               <p><p>
             </div>`;
 
           add.style.backgroundColor = "#4caf50";
+          maxi.innerHTML= `
+            <p>Max weight: ${inputVal}</p>
+          `
         }
         if (sumWeight > inputVal) {
-          warning.style.visibility = "initial";
           window.alert(
             `Exceeded maximum weight of ${inputVal}kg. You can reduce the items in the knapsack.`
           );
@@ -90,6 +91,7 @@ done.onclick = function () {
          options.disabled = true;
           options.style.backgroundColor = "#f08880";
           restart.style.backgroundColor = "#f00080"
+          maxi.style.backgroundColor = "#f00080"
         }
       }
     }
