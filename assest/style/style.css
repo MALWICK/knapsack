@@ -1,0 +1,223 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.knapsack {
+  width: 100%;
+  height: 80vh;
+  min-height: 110vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: black;
+}
+
+.pagecontent {
+  width: 447px;
+  padding: 1.5%;
+  border: 2px solid grey;
+  border-radius: 0.8rem;
+  background-color: white;
+}
+
+.iput {
+  width: 100%;
+  display: block;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.iput label {
+  text-align: left;
+  width: 100%;
+}
+
+.selectdiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  flex-direction: column;
+}
+
+.selectdiv select {
+  width: 100%;
+  padding: 2%;
+  margin-bottom: 2%;
+  border-radius: 0.3rem;
+}
+
+.capacity {
+  margin: 2px;
+  padding: 7px;
+  width: 100%;
+  border-radius: 0.3rem;
+}
+
+.input-field {
+  width: 100%;
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: left;
+  flex-direction: column;
+}
+
+.input-field input {
+  width: 97%;
+}
+
+.mas {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7%;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.sele {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7%;
+  flex-direction: column;
+}
+
+.sele label {
+  width: 95%;
+  text-align: left;
+  font-size: large;
+}
+
+.sele option {
+  width: 50%;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 0.3rem;
+}
+
+.done {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.2%;
+}
+
+.done button {
+  width: 100%;
+  border-radius: 0.3rem;
+  background-color: #2854b4;
+}
+
+.input-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete {
+  width: 100px;
+  background-color: red;
+  border-radius: 0.3rem;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 6px;
+}
+
+.items {
+  margin-top: 20px;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+ul {
+  width: 95%;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li span {
+  margin-left: auto;
+}
+
+.clear-all:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.warning {
+  color: black;
+  margin-top: -10px;
+  height: 12px;
+  visibility: hidden;
+}
+
+.res {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ /*  background-color: red; */
+}
+
+.max-res {
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4caf50;
+  border-radius: 0.2rem;
+}
+
+@media (max-width: 768px) {
+  .input-field input {
+    width: 226px;
+  }
+}
